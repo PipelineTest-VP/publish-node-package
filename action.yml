@@ -1,0 +1,27 @@
+name: 'Publish node package in GHPR'
+description: 'Publish node package in GHPR'
+inputs:
+  gthub-org-name:
+    description: 'Github organization name'
+    required: true
+    default: ''
+  node-package-name:
+    description: 'Node package name'
+    required: true
+    default: ''
+  node-package-path:
+    description: 'Node package path'
+    required: true
+    default: ''
+  node-package-repo-name:
+    description: 'Node package repo name'
+    required: true
+    default: ''
+  gthub-token:
+    description: 'Github service account token'
+    required: true
+    default: ''
+
+runs:
+  using: 'node12'
+  main: 'index.js'
