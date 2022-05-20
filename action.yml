@@ -9,8 +9,8 @@ inputs:
     description: 'Node package name'
     required: true
     default: ''
-  node-package-path:
-    description: 'Node package path'
+  node-package-version:
+    description: 'Node package version'
     required: true
     default: ''
   node-package-repo-name:
