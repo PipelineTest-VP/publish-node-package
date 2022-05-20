@@ -1,5 +1,5 @@
 # publish-node-package
-Below inputs need to be passed:
+Below inputs need to be provided:
 * gthub-org-name
 * node-package-name
 * node-package-path
